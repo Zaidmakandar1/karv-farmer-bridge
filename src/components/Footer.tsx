@@ -39,8 +39,13 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Get in Touch</h4>
             <div className="text-primary-foreground/80 space-y-2">
-              <p>Email: info@karv.com</p>
-              <p>Phone: +1 (555) 123-4567</p>
+              <p>Phone: +91 74991 02901</p>
+              <p>Email: responce@karv.co.in</p>
+              <p className="text-sm mt-3">
+                3495/9, Gollecha Layout<br />
+                Main Road, Hiwarkhed<br />
+                Maharashtra, India
+              </p>
             </div>
           </div>
         </div>

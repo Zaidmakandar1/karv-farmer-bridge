@@ -82,12 +82,12 @@ const Contact = () => {
                   <CardContent className="p-6">
                     <div className="flex items-start space-x-4">
                       <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
-                        <Mail className="w-6 h-6 text-primary" />
+                        <Phone className="w-6 h-6 text-primary" />
                       </div>
                       <div>
-                        <h3 className="font-semibold text-lg mb-1">Email</h3>
-                        <p className="text-muted-foreground">info@karv.com</p>
-                        <p className="text-sm text-muted-foreground mt-1">We'll respond within 24 hours</p>
+                        <h3 className="font-semibold text-lg mb-1">Phone</h3>
+                        <p className="text-muted-foreground">+91 74991 02901</p>
+                        <p className="text-sm text-muted-foreground mt-1">Mon-Sat, 9am-6pm IST</p>
                       </div>
                     </div>
                   </CardContent>
@@ -97,12 +97,12 @@ const Contact = () => {
                   <CardContent className="p-6">
                     <div className="flex items-start space-x-4">
                       <div className="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center flex-shrink-0">
-                        <Phone className="w-6 h-6 text-secondary" />
+                        <Mail className="w-6 h-6 text-secondary" />
                       </div>
                       <div>
-                        <h3 className="font-semibold text-lg mb-1">Phone</h3>
-                        <p className="text-muted-foreground">+1 (555) 123-4567</p>
-                        <p className="text-sm text-muted-foreground mt-1">Mon-Fri, 9am-6pm EST</p>
+                        <h3 className="font-semibold text-lg mb-1">Email</h3>
+                        <p className="text-muted-foreground">responce@karv.co.in</p>
+                        <p className="text-sm text-muted-foreground mt-1">We'll respond within 24 hours</p>
                       </div>
                     </div>
                   </CardContent>
@@ -117,9 +117,9 @@ const Contact = () => {
                       <div>
                         <h3 className="font-semibold text-lg mb-1">Office</h3>
                         <p className="text-muted-foreground">
-                          123 Farm Road<br />
-                          Agricultural District<br />
-                          City, State 12345
+                          3495/9, Gollecha Layout<br />
+                          Main Road, Hiwarkhed<br />
+                          Maharashtra, India
                         </p>
                       </div>
                     </div>

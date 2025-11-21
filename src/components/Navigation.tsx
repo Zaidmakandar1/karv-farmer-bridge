@@ -20,7 +20,8 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <NavLink to="/" className="flex items-center space-x-2">
-            <div className="text-2xl font-bold text-primary">KARV</div>
+            <img src="/logo.png" alt="KARV logo" className="h-16 w-auto object-contain" />
+            <span className="sr-only">KARV</span>
           </NavLink>
 
           {/* Desktop Navigation */}
