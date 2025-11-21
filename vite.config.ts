@@ -5,6 +5,8 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  // Use '/' for custom domain, or '/repo-name/' for GitHub Pages without custom domain
+  base: '/',
   server: {
     host: "::",
     port: 8080,
