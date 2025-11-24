@@ -275,8 +275,10 @@ Once your site is deployed, you can connect a custom domain.
 
 3. **Update vite.config.ts**:
    ```typescript
-   base: process.env.GITHUB_PAGES === 'true' ? '/' : '/',
+   // Change to use '/' for custom domain
+   base: '/',
    ```
+   Note: Remove or modify the `GITHUB_PAGES` environment check since custom domains should use root path.
 
 4. **Enable HTTPS**:
    - In GitHub Settings > Pages
