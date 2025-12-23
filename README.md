@@ -62,12 +62,29 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/299aabd4-cd1b-41da-816c-c8c8692641dd) and click on Share -> Publish.
+**Multiple hosting options are available!**
 
-## Can I connect a custom domain to my Lovable project?
+This project is configured for easy deployment to various platforms:
 
-Yes, you can!
+- **GitHub Pages** (Free): Already configured! See [HOSTING.md](./HOSTING.md) for setup instructions
+- **Vercel** (Free): Fast and easy deployment
+- **Netlify** (Free): Great features and simple setup
+- **Other platforms**: Cloudflare Pages, Render, Firebase, AWS, and more
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+For detailed step-by-step instructions for each platform, see the comprehensive **[HOSTING.md](./HOSTING.md)** guide.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### Quick Start - GitHub Pages
+
+1. Go to your repository Settings > Pages
+2. Under "Build and deployment", set Source to "GitHub Actions"
+3. The site will automatically deploy to: `https://zaidmakandar1.github.io/karv-farmer-bridge/`
+
+Alternatively, you can use [Lovable](https://lovable.dev/projects/299aabd4-cd1b-41da-816c-c8c8692641dd) and click on Share -> Publish.
+
+## Can I connect a custom domain?
+
+Yes, you can connect a custom domain to your deployed project!
+
+- For **GitHub Pages**: See the [Custom Domain Setup](./HOSTING.md#custom-domain-setup) section in HOSTING.md
+- For **Lovable**: Navigate to Project > Settings > Domains and click Connect Domain. [Learn more](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- For **Vercel/Netlify**: See the [HOSTING.md](./HOSTING.md#custom-domain-setup) guide
